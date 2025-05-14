@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Produto - Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #ff8000;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(to bottom, #1a1a1a, #121212);
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      color: #ff8000;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      background-color: #ff8000;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #cc6600;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+      background-color: #1e1e1e;
+    }
+
+    .feature-box {
+      background-color: #2a2a2a;
+      border-radius: 10px;
+      padding: 1.2rem;
+      width: 280px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .feature-box h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .feature-box p {
+      font-size: 0.95rem;
+      color: #ddd;
+    }
+
+    .feature-box:nth-child(1) h3 {
+      color: #ffcc00;
+    }
+
+    .feature-box:nth-child(2) h3 {
+      color: #00ccff;
+    }
+
+    .feature-box:nth-child(3) h3 {
+      color: #ff9900;
+    }
+
+    footer {
+      background-color: #121212;
+      padding: 2rem;
+      text-align: center;
+      color: #ff8000;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Produto</h1>
+    <nav>
+      <a href="#">Funcionalidades</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Descubra o Produto que vai Transformar seu Dia</h2>
+    <p>Simples, poderoso, eficiente. Descubra como nosso produto pode facilitar sua vida de forma incrível.</p>
+    <button>Quero Saber Mais</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>🚀 Rápido</h3>
+      <p>Velocidade é essencial. Nossa solução é otimizada para entregar resultados em tempo recorde.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🔐 Seguro</h3>
+      <p>Com foco em segurança, seus dados estão sempre protegidos conosco.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🤖 Inteligente</h3>
+      <p>Recursos que se adaptam às suas necessidades com tecnologia de ponta.</p>
+    </div>
+  </section>
+
+  <footer>
+    Entre em Contato
+  </footer>
+
+</body>
+</html>
